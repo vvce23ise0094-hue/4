@@ -1,0 +1,20 @@
+docker build -t my-python-app3 .
+
+ docker tag my-python-app3:latest monishab17/my-python-app3:latest
+
+
+docker images
+
+ docker login -u monishab17
+
+docker push monishab17/my-python-app3:latest-----
+------error
+docker run -d -p 5000:5000 --name myapp-container monishab17/my-python-app3:latest
+ docker rm -f myapp-container
+docker run -d -p 5000:5000 --name myapp-container monishab17/my-python-app3:latest
+
+
+plugins -avaliable-docker pipline-install
+credentials-add -username-docker name -password-id-dockerhub-credentials
+
+
